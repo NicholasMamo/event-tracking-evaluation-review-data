@@ -12,3 +12,4 @@ This repository is structured as follows:
 - The `lib` directory contains functions that the download tool uses to re-download corpora.
 - The `tools` directory contains the `download.py` tool, which you can use to download the original tweets from the provided IDs.
   Use the `download.py` tool with the `-h/--help` parameter to see usage instructions.
+Note that to use the download tool, you require Python 3 and the [Tweepy library](https://github.com/tweepy/tweepy) installed.
